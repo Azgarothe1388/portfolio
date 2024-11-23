@@ -1,11 +1,11 @@
-/* Réinitialisation des marges et paddings */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Corps de la page */
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -14,7 +14,7 @@ body {
     margin: 0;
 }
 
-/* Navbar */
+
 header {
     background-color: #333;
     color: #fff;
@@ -43,7 +43,7 @@ header nav ul li a:hover {
     color: #ffa500;
 }
 
-/* Sections */
+
 section {
     padding: 3rem 10%;
     margin: 2rem 0;
@@ -87,10 +87,9 @@ section a:hover {
     color: #fff;
 }
 
-/* Vidéo */
 .video-container {
     display: flex;
-    justify-content: center; /* Centre horizontalement */
+    justify-content: center;
     align-items: center;
     margin: 20px 0;
 }
@@ -100,7 +99,6 @@ section a:hover {
     border-radius: 10px;
 }
 
-/* Tableau de travaux */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -127,7 +125,6 @@ table tr:hover {
     background-color: #f1f1f1;
 }
 
-/* Formulaire de contact */
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -167,7 +164,6 @@ form input[type="submit"]:hover {
     background-color: #ffa500;
 }
 
-/* Footer */
 footer {
     background-color: #333;
     color: #fff;
@@ -179,7 +175,6 @@ footer p {
     font-size: 1rem;
 }
 
-/* Centrer la vidéo */
 #home {
     display: flex;
     flex-direction: column;
@@ -188,8 +183,6 @@ footer p {
     text-align: center;
     padding: 50px 10%;
 }
-
-/* Centrer le bouton "Mon CV" */
 .resume-button-container {
     display: flex;
     justify-content: center;
